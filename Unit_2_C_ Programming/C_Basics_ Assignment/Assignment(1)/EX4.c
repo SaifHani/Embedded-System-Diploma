@@ -10,18 +10,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h> // Include the sleep function
-
 int main(void) {
     float x, y;
     printf("Enter two numbers:");
     fflush(stdout);
     scanf("%f %f", &x, &y);
-
-    printf("product: %f\n", x * y); // Display the result
-
-    // Introduce a 5-second delay
-    sleep(5);
-
+    printf("product: %f\n", x * y); 
     return 0;
 }
